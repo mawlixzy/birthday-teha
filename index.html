@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For Teha ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Serif+Display&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="doodles"><span>✦</span><span>♡</span><span>✿</span><span>·</span><span>✧</span></div>
+
+<main>
+<section class="page active" id="p0">
+  <div class="tape tape-a"></div>
+  <p class="tiny">a little something for you...</p>
+  <h1>Happy<br><em>Birthday</em></h1>
+  <div class="name-card"><span>for</span><strong>Sasmi Nanda</strong><small>aka Teha ♡</small></div>
+  <p class="hand-note">buka pelan-pelan ya :)</p>
+  <button class="btn primary" onclick="startSurprise()">✦ OPEN YOUR SURPRISE ✦</button>
+  <p class="music-note">🎧 put this on while reading</p>
+</section>
+
+<section class="page" id="p1">
+  <div class="page-number">01 / 06</div>
+  <div class="paper-sheet">
+    <div class="tape tape-b"></div>
+    <p class="eyebrow">okay... let's start here</p>
+    <h2>Dear Teha,</h2>
+    <p>Pas pertama kali aku <b>diteha-in</b> sama kamu, <i>you looked so familiar.</i></p>
+    <p>Mungkin karena kita pernah diteha-in di kehidupan sebelumnya? Atau jangan-jangan aku pernah diperlihatkan kalau <i>tehaku adalah kamu?</i></p>
+    <p class="gombal">WKWKWK GOMBALLL 😭</p>
+    <p>Anyway... ternyata setelah itu kita malah punya banyak cerita yang sekarang jadi bagian dari hidup masing-masing.</p>
+    <button class="btn" onclick="nextPage()">ada yang mau aku bilang →</button>
+  </div>
+</section>
+
+<section class="page" id="p2">
+  <div class="page-number">02 / 06</div>
+  <div class="paper-sheet">
+    <p class="eyebrow">this one is from my heart</p>
+    <h2>Thank you<br>for being here.</h2>
+    <p>Teha, terima kasih yaa sudah hidup sampai hari ini dan seterusnya.</p>
+    <p>Nafas yang Allah kasih ke kamu bukan sesuatu yang hadir tanpa alasan, apalagi dalam kesia-siaan. Itu adalah anugerah-Nya—yang keberadaannya bukan cuma bisa kamu rasakan, tapi juga bisa dirasakan oleh orang-orang di sekitarmu.</p>
+    <p>Jadi, terima kasih sudah bertahan sejauh ini. Terima kasih sudah menjadi Teha yang aku kenal.</p>
+    <button class="btn" onclick="nextPage()">sekarang, mari berdoa →</button>
+  </div>
+</section>
+
+<section class="page" id="p3">
+  <div class="page-number">03 / 06</div>
+  <div class="paper-sheet centered">
+    <div class="pressed-flower">✿</div>
+    <p class="eyebrow">a little prayer for you</p>
+    <h2>Untuk perjalananmu<br>yang berikutnya...</h2>
+    <p>Semoga di perpanjangan usia ini, kamu bisa semakin dekat dengan mimpi-mimpimu, semakin dekat dengan kedua orang tua, keluarga, dan yang paling utama, <b>semakin dekat dengan dirimu sendiri.</b></p>
+    <p>Semoga Allah menjaga setiap langkahmu, melapangkan jalanmu ketika terasa berat, dan mempertemukanmu dengan banyak hal baik yang belum pernah kamu sangka.</p>
+    <p>Semoga kamu tumbuh tanpa kehilangan dirimu sendiri, dan selalu diberi kekuatan untuk menjalani setiap senang dan susahnya hidup.</p>
+    <p class="hand-note big">semoga yang baik-baik selalu menemukanmu. 🤍</p>
+    <button class="btn" onclick="nextPage()">remember this? →</button>
+  </div>
+</section>
+
+<section class="page" id="p4">
+  <div class="page-number">04 / 06</div>
+  <p class="eyebrow center">little pieces of us</p>
+  <h2 class="gallery-title">memories 📸</h2>
+  <div class="gallery">
+    <figure class="polaroid tilt-left"><img src="photos/foto1.jpg"><figcaption>one of those days ♡</figcaption></figure>
+    <figure class="polaroid tilt-right"><img src="photos/foto2.jpg"><figcaption>still one of my favorites</figcaption></figure>
+    <figure class="polaroid tilt-small"><img src="photos/foto3.jpg"><figcaption>and here we are ✦</figcaption></figure>
+  </div>
+  <p class="hand-note">ternyata kita sudah sejauh ini ya...</p>
+  <button class="btn" onclick="nextPage()">satu hal terakhir →</button>
+</section>
+
+<section class="page" id="p5">
+  <div class="page-number">05 / 06</div>
+  <div class="wish-card">
+    <span class="star">✦</span>
+    <p class="eyebrow">one last thing</p>
+    <h2>Meski pemerintah<br>nggak pernah berpihak<br>pada kita...</h2>
+    <p>...setidaknya masih ada diri sendiri dan Allah yang nggak pernah absen tatkala kita dirundung keruh.</p>
+    <p>Jadi tetap semangat yaa, Teha. Untuk segala senangnya. Untuk segala susahnya. Untuk hari-hari yang ringan maupun yang rasanya ingin segera dilewati.</p>
+    <p>Kalau nanti hidup membawa kita ke banyak tempat dan fase yang berbeda, semoga kita tetap punya cerita-cerita kecil untuk dikenang dan ditertawakan lagi suatu hari nanti.</p>
+    <button class="btn" onclick="showLast()">wait… one last thing →</button>
+  </div>
+</section>
+
+<section class="page" id="p6">
+  <div class="confetti" id="confetti"></div>
+  <p class="tiny">P.S.</p>
+  <div id="lastReveal">
+    <h2 class="final-title">kalau suatu hari kita<br>ketemu lagi di kehidupan berikutnya...</h2>
+    <button class="btn primary" onclick="revealFinal()">klik sekali lagi ♡</button>
+  </div>
+  <div id="finalText" class="hidden">
+    <p class="final-big">jangan lupa<br><em>teha-in aku lagi ya.</em> 🩷</p>
+    <p class="final-message">Sekali lagi, selamat hari kelahiran, Tehaku.<br>Semoga Allah selalu menjaga langkahmu dan menjadikan bertambahnya usia ini sebagai bertambahnya keberkahan dalam hidupmu.</p>
+    <div class="final-stamp">♡ KEEP SHINING ♡</div>
+    <p class="signature">— Maulida</p>
+  </div>
+</section>
+</main>
+
+<div class="music-player" id="musicPlayer">
+<button id="musicBtn" onclick="toggleMusic()">▶</button>
+<div><small>now playing</small><span>Kita ke Sana — Hindia</span></div>
+</div>
+<audio id="song" loop preload="auto"><source src="music/kita-ke-sana.mp3" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body>
+</html>
